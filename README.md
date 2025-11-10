@@ -50,3 +50,27 @@ Run the Optimizer: The minimize function was called, passing it the error functi
 Once the optimizer finished, it returned the optimal values for theta, M, and X.
 
 Quantitative Validation: The final, minimized L1 distance was calculated to confirm the quality of the fit. A smaller value indicates a better fit.
+
+
+<font size="20"> **L1 distance**</font>
+θ=28.119 (angle in degrees),
+
+M=0.0214,
+
+X=54.9003
+
+Based on the xy_data.csv file and the parameters value from our query (theta = 28.119, M = 0.0214, X = 54.9003),the L1 distance can be calculated.
+
+The process for each point is:
+
+1.Take an Expected Point (x_data, y_data) from CSV file.
+
+2.Take the corresponding uniformly sampled t value.
+
+3.Calculate the Predicted Point (x_pred, y_pred) using equation with the given parameters at that t.
+
+4.Compute the L1 Distance for that point: |x_pred - x_data| + |y_pred - y_data|.
+
+Total L1 Distance
+By summing the individual L1 distances for all the points in xy_data.csv, the Total L1 Distance is approximately 37,865.1.
+
