@@ -53,6 +53,7 @@ Quantitative Validation: The final, minimized L1 distance was calculated to conf
 
 
 <font size="20"> **L1 distance**</font>
+
 θ=28.119 (angle in degrees),
 
 M=0.0214,
